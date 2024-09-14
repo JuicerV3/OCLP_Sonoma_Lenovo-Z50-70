@@ -2,7 +2,7 @@
 
 # OCLP 1.5.0 - macOS Sonoma 14 - Lenovo Z50-70 Type 80E7
 
-## Mostthing are just like Ventura repository except you need Difference SMBIOS, Sonoma specific kexts if avaliable.
+## Most things are just the same as Ventura except you'll need a difference SMBIOS and Sonoma specific kexts if avaliable.
 
 Keep in mind macOS 14 Sonoma is **NOT NATIVELY** supported for Haswell system. this modification may cause bug glitches to an operating system.
 
@@ -34,7 +34,7 @@ from **EFI/OC/Kexts** folder and **config.plist** then replace with one that wor
 
 ## Step-By-Step Guide
 * Build OpenCore Ventura installer or use my EFI provided
-* Generate SMBIOS using "MacBookPro15,2"
+* Generate SMBIOS using **MacBookPro15,2**
 * in config.plist
   * Misc > Security > SecureBootModel: set to "Disabled"
   * boot-args: amfi=0x80)**.
@@ -46,10 +46,11 @@ from **EFI/OC/Kexts** folder and **config.plist** then replace with one that wor
 ## Known issues (Update 14 September)
 Most(every?) issues come from OpenCore itself see [Hackintosh_OpenCore_Lenovo-Z50-70#known-issues](https://github.com/JuicerV3/Hackintosh_OpenCore_Lenovo-Z50-70#known-issues).
 * Unable to grant special permissions to apps (ie. Camera Access to Zoom, Discord Microphone) [Workaround click here](https://dortania.github.io/OpenCore-Legacy-Patcher/ACCEL.html#unable-to-grant-special-permissions-to-apps-ie-camera-access-to-zoom)
-* [Legacy Metal Graphics issues](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1008)
+* [Legacy Metal Graphics issues](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1008) Even more intense than Ventura
 * GeForce Now app crashing due to Metal acceleration problem.
 
 ### What works (Update 14 September)
+Most things is handle by OpenCore we only use OCLP for GPU Acceleration
 * Partial Metal GPU Acceleration
 * WiFi & Bluetooth connection
 * Ethernet connection
