@@ -33,7 +33,7 @@ from **EFI/OC/Kexts** folder and **config.plist** then replace with one that wor
 * Coming soon
 
 ## Step-By-Step Guide
-* Build OpenCore Ventura installer or use my EFI provided
+* Build OpenCore Sonoma installer or use my EFI provided
 * Generate SMBIOS using **MacBookPro15,2**
 * in config.plist
   * Misc > Security > SecureBootModel: set to "Disabled"
