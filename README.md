@@ -1,6 +1,6 @@
+![Screenshot 2567-09-15 at 8 52 48 AM](https://github.com/user-attachments/assets/d0b4d485-26c0-4e6c-9aa5-9bfe07ebbc7f)
 
-
-# OCLP 1.5.0 - macOS Sonoma 14 - Lenovo Z50-70 Type 80E7
+# OCLP 2.0.0 - macOS Sonoma 14 - Lenovo Z50-70 Type 80E7
 
 ## Most things are just the same as Ventura except you'll need a difference SMBIOS and Sonoma specific kexts if avaliable.
 
@@ -29,8 +29,8 @@ If you have difference **Wlan card** other than Intel ([OpenIntelWireless](https
 
 from **EFI/OC/Kexts** folder and **config.plist** then replace with one that work for your card.
 
-## latest changes (Update 14 September)
-* Coming soon
+## latest changes (Update 15 September)
+* Updated to OpenCore Legacy Patcher 2.0.0 patch
 
 ## Step-By-Step Guide
 * Build OpenCore Sonoma installer or use my EFI provided
